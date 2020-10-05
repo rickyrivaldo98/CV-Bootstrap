@@ -48,11 +48,84 @@ h4 {
 }
 
 #card {
-  width: 65rem;
+  /* width: 65rem; */
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
   box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+}
+
+@media only screen and (max-width: 600px) {
+  h2,
+  h4,
+  h5,
+  h6 {
+    font-size: medium;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: xx-large;
+    margin-bottom: 0 !important;
+  }
+
+  #mediasosial {
+    margin: 0;
+  }
+
+  #mediasosial .kecil {
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    margin-right: 0.5rem;
+  }
+
+  button {
+    color: white;
+  }
+
+  #card {
+    margin: 5px 15px !important;
+  }
+
+  .card-img-top {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mr-3 {
+    margin-left: auto;
+    margin-right: auto !important;
+  }
+
+  .media {
+    flex-direction: column;
+  }
+  .isi {
+    text-align: center;
+  }
+
+  .media img {
+    margin-bottom: 20px;
+  }
+  .card-deck {
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .container h1 {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  #card {
+    width: 65rem;
+  }
 }
 
 #cardpp {
