@@ -1,0 +1,133 @@
+@font-face {
+  font-family: ProductSansBold;
+  src: url(Product\ Sans\ Bold.ttf);
+}
+@font-face {
+  font-family: ProductSansBoldItalic;
+  src: url(Product\ Sans\ Bold\ Italic.ttf);
+}
+@font-face {
+  font-family: ProductSansitalic;
+  src: url(Product\ Sans\ Italic.ttf);
+}
+@font-face {
+  font-family: ProductSansRegular;
+  src: url(Product\ Sans\ Regular.ttf);
+}
+
+body {
+  font-family: ProductSansRegular;
+  background-color: #e8eef1;
+}
+h4 {
+  opacity: 0.5;
+}
+
+.bg {
+  background-color: #057dcd;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+#mediasosial {
+  margin-left: 30px;
+  /* padding: 5px; */
+}
+
+#navbarposisi {
+  margin-right: 30px;
+  color: white;
+}
+
+#fotopp {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#card {
+  width: 65rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+}
+
+#cardpp {
+  border-radius: 10px;
+  background-color: #43b0f1;
+}
+
+.card-body p {
+  margin-bottom: 0rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  margin-left: -3px;
+}
+
+.bulat {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+}
+
+.bulat::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 4px solid #43b0f1;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -13px;
+}
+
+.isi {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+#projek,
+#skills {
+  background-color: white;
+}
+
+.card-deck {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
