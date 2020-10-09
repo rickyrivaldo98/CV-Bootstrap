@@ -1,18 +1,18 @@
 @font-face {
   font-family: ProductSansBold;
-  src: url(Product\ Sans\ Bold.ttf);
+  src: url(../fonts/Product\ Sans\ Bold.ttf);
 }
 @font-face {
   font-family: ProductSansBoldItalic;
-  src: url(Product\ Sans\ Bold\ Italic.ttf);
+  src: url(../fonts/Product\ Sans\ Bold\ Italic.ttf);
 }
 @font-face {
   font-family: ProductSansitalic;
-  src: url(Product\ Sans\ Italic.ttf);
+  src: url(../fonts/Product\ Sans\ Italic.ttf);
 }
 @font-face {
   font-family: ProductSansRegular;
-  src: url(Product\ Sans\ Regular.ttf);
+  src: url(../fonts/Product\ Sans\ Regular.ttf);
 }
 
 body {
